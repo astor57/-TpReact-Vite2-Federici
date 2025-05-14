@@ -9,6 +9,9 @@ form {
     display: block;
     font-weight: bold;
     margin-top: 1rem;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
   }
   
   form input[type="text"],
