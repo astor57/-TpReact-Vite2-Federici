@@ -26,7 +26,7 @@ function App() {
         key={cita.id}
         datos={cita}
         eliminarCita={(id) => {
-          setCitas(citas.filter((c) => c.id !== id));
+        setCitas(citas.filter((c) => c.id !== id));
         }}
           />
        ))}

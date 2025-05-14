@@ -12,7 +12,6 @@ function Formulario({agregarCita}) {
     const verCambios = (e) => {
         e.preventDefault();
 
-        // Validar
         if (mascota.trim() === '' || dueño.trim() === '' || fecha.trim() === '' || hora.trim() === '' || sintomas.trim() === '') {
             setError(true);
             return;
@@ -20,12 +19,10 @@ function Formulario({agregarCita}) {
 
         setError(false);
 
-        // Crear objeto de cita
         const nuevaCita = {
             id: Date.now(), mascota, dueño, fecha, hora, sintomas
         };
 
-        // Pasar cita a App
         agregarCita(nuevaCita);
     };
 
