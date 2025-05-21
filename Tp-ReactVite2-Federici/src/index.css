@@ -87,9 +87,13 @@ input[type="time"] {
   border-bottom-right-radius: 1rem;
 }
 
-.button.eliminar,
-.button.eliminar:hover {
+.botonAgregar{
   background-color: #c10059;
+  color: white;
+  margin-top: 2rem;
+}
+.botonAgregar:hover {
+  background-color: #fa0778;
   color: white;
   margin-top: 2rem;
 }

@@ -45,7 +45,7 @@ function Formulario({agregarCita}) {
                 <label>Síntomas</label>
                 <textarea className="u-full-width" value={sintomas} onChange={(e) => setSintomas(e.target.value)}/>
 
-                <button type="submit" className="u-full-width button-primary">
+                <button type="submit" className="botonAgregar">
                     Agregar Cita
                 </button>
             </form>

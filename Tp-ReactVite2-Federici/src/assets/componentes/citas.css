@@ -23,7 +23,7 @@
   .card input[type="button"] {
     width: 100%;
     padding: 1rem;
-    background-color: #000000;
+    background-color: #b80000;
     color: white;
     border: none;
     font-weight: bold;
@@ -32,4 +32,15 @@
     cursor: pointer;
     font-family: 'Staatliches', cursive;
   }
-  
+  .card input[type="button"]:hover {
+    width: 100%;
+    padding: 1rem;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+  }
